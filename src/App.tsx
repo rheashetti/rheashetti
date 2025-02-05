@@ -26,6 +26,14 @@ function App() {
         <Experience />
         <Projects />
       </div>
+      <div className="footer">
+        <div className="footer-links">
+          <a href="Link">LinkedIn</a>
+          <a href="Link">GitHub</a>
+          <a href="Link">Email</a>
+        </div>
+        <p>© 2025 Rhea Shetti</p>
+      </div>
     </>
   )
 }
