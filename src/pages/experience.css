@@ -14,16 +14,39 @@
 
 .file-container {
     display: flex;
-    position: absolute;
     gap: 10px;
 }
 
 .file-button {
     background-color: (255, 209, 209);
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     padding: 10px;
     cursor: pointer;
     color: black;
-    padding: 10px;
 }
 
+.file-button.active {
+    background-color:rgb(255, 209, 209);
+    position: relative;
+    z-index: 2;
+}
+
+.file-button:not(.active) {
+    background-color: rgb(245, 172, 172);
+}
+
+.file-content {
+    background-color: rgb(255, 209, 209);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    height: 75%;
+}
+
+.file-content.pinterest-engage {
+    border-radius: 0 10px 10px 10px;
+}
+
+.file-content.wics {
+    border-radius: 10px;
+}
