@@ -1,0 +1,29 @@
+.experience-content {
+    display: fixed;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-container {
+    border-radius: 10px;
+    background-color: rgb(245, 172, 172);
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.file-container {
+    display: flex;
+    position: absolute;
+    gap: 10px;
+}
+
+.file-button {
+    background-color: (255, 209, 209);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+}
+
