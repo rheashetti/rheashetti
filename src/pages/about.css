@@ -1,0 +1,24 @@
+#about {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-me-content p {
+    font-size: 1.5em;
+    text-align: left;
+    margin: 0 1em;
+    width: 70%;
+}
+.about-me-content img {
+    width: 400px;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+
+}

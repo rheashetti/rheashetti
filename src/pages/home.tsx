@@ -12,6 +12,7 @@ const Home: React.FC = () => {
             speed={10}
             style={{ color: 'rgb(255, 209, 209)', fontSize: '2em' }}
         />
+        <h4> yap yap yap</h4>
     </section>
   );
 };
