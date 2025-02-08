@@ -44,9 +44,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #dbdbdb;
+  padding-bottom: 2em;
 }
 
 .footer-links {
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }

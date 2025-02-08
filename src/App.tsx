@@ -1,9 +1,12 @@
 import './App.css'
 import './index.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import About from './pages/about.tsx'
 import Experience from './pages/experience.tsx'
 import Projects from './pages/projects.tsx'
 import Home from './pages/home.tsx'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
@@ -28,9 +31,15 @@ function App() {
       </div>
       <div className="footer">
         <div className="footer-links">
-          <a href="Link">LinkedIn</a>
-          <a href="Link">GitHub</a>
-          <a href="Link">Email</a>
+          <a href="www.linkedin.com/in/rhea-shetti">
+            <FontAwesomeIcon icon={faLinkedin} style={{color:"#dbdbdb"}} size="2x" />
+          </a>
+          <a href="https://github.com/rheashetti">
+            <FontAwesomeIcon icon={faGithub} style={{color:"#dbdbdb"}} size="2x"/>
+          </a>
+          <a href="mailto:shettir@uci.edu">
+            <FontAwesomeIcon icon={faEnvelope} style={{color:"#dbdbdb"}} size="2x"/>
+          </a>
         </div>
         <p>© 2025 Rhea Shetti</p>
       </div>

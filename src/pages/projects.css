@@ -38,6 +38,5 @@ h3 {
 .project-item:hover{
     transform: translateY(-5px);
     background-color: rgb(255, 188, 188);
-    
-
+    transition: transform 0.3s ease;
 }
