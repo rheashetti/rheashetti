@@ -7,6 +7,7 @@ import Experience from './pages/experience.tsx'
 import Projects from './pages/projects.tsx'
 import Home from './pages/home.tsx'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useEffect } from 'react';
 
 function App() {
 
@@ -27,6 +28,34 @@ function App() {
       });
     }
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.top-nav-bar-links a');
+
+      let currentSectionId = '';
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 200; 
+        if (window.pageYOffset >= sectionTop) {
+          currentSectionId = section.getAttribute('id') || '';
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${currentSectionId}`) {
+          link.classList.add('active');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
     return (
     <>
