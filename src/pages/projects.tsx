@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import './projects.css';
 
 const Projects: React.FC = () => {
+    const sectionRef = useRef<HTMLDivElement>(null);
+        
+    useEffect(() => {
+    const observer = new IntersectionObserver(
+    (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+              } else {
+                  entry.target.classList.remove('visible');
+              }
+            });
+    },
+    { threshold: 0.1 }
+    );
+
+    if (sectionRef.current) {
+        observer.observe(sectionRef.current);
+    }
+
+    return () => {
+        if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+        }
+    }
+    }, []);
 
     return (
-        <section id="projects">
+        <section id="projects" ref={sectionRef} className="section">
             <h2> / projects</h2>
             <div className="project-container">
                 <div className="project-item">
