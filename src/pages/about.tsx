@@ -7,7 +7,7 @@ const About: React.FC = () => {
     <section id="about">
         <h2> / about me</h2>
         <div className="about-me-content">
-          <p> this is about me yap yap yap</p>
+          <p> i like cats and lando norris</p>
           <img src={profileImage} />
         </div>
         

@@ -26,8 +26,7 @@ const Experience : React.FC = () => {
                     </div>
                     <div className={`file-content ${activeTab}`}>
                         {activeTab === "pinterest-engage" ? (
-                            <p> stuff about pinterst engage </p>
-                        ) : (
+                            <p> As one of Pinterest's 30 Engage Scholars, I have the invaluable opportunity to learn from Pinterest employees and recruiters about working as a Software Engineer. This year-long program focuses on enhancing my technical, interview, and professional skills, while also providing mentorship and networking opportunities. Designed to promote diversity in Computer Science, Engage empowers scholars from underrepresented backgrounds to grow and thrive in tech. I look forward to developing my skills, connecting with industry professionals, and gaining insights that will shape my future career.</p> ) : (
                             <p> stuff about wics </p>
                         )
                         }

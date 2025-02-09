@@ -13,7 +13,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 20px;
     flex-wrap: wrap;
     width: 100%;
@@ -21,7 +21,7 @@ h3 {
 
 .project-item {
     background-color: rgb(245, 172, 172);
-    padding: 5%;
+    padding: 6%;
     border-radius: 10px;
     display: flex;
     width: 200px;
@@ -31,12 +31,12 @@ h3 {
     justify-content: center;
     flex: 1 1 200px;
     max-width: 440px;
-    text-align: center;
+    text-align: left;
     color: black;
 }
 
 .project-item:hover{
-    transform: translateY(-5px);
+    transform: translateY(-6px);
     background-color: rgb(255, 188, 188);
     transition: transform 0.3s ease;
 }

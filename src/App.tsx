@@ -10,17 +10,35 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
 
-  return (
+  const handleScroll = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, targetId: string) => {
+    event.preventDefault();
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      let offset = 70;
+      if(targetElement.id === 'about'){
+        offset = 150;
+      }
+      const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
+
+    return (
     <>
       <div className="top-nav-bar">
         <div className="top-nav-bar-logo">
           <h1>Rhea Shetti</h1>
           </div>
         <div className="top-nav-bar-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
+          <a href="#home" onClick={(e) => handleScroll(e, 'home')}>Home</a>
+          <a href="#about" onClick={(e) => handleScroll(e, 'about')}>About</a>
+          <a href="#experience" onClick={(e) => handleScroll(e, 'experience')}>Experience</a>
+          <a href="#projects" onClick={(e) => handleScroll(e, 'projects')}>Projects</a>
         </div>
       </div>
       <div id="root">
