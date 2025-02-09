@@ -3,6 +3,11 @@
     padding-top: 0;
 }
 
+h2 {
+    background-color:black;
+    width: fit-content;
+    height: fit-content;
+}
 .section {
     opacity: 0;
     transform: translateY(20px);
@@ -22,11 +27,13 @@
 }
 
 .about-me-content p {
-    font-size: 1.5em;
+    font-size: 1.35em;
     text-align: left;
-    width: 70%;
     color: rgb(255, 209, 209);
     margin-right: 40px;
+    background-color: black;
+    height: 80%;
+    margin-top: -1%;
 }
 .about-me-content img {
     width: 400px;
