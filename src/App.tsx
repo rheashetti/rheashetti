@@ -50,13 +50,13 @@ function App() {
       <div className="footer">
         <div className="footer-links">
           <a href="www.linkedin.com/in/rhea-shetti">
-            <FontAwesomeIcon icon={faLinkedin} style={{color:"#dbdbdb"}} size="2x" />
+            <FontAwesomeIcon icon={faLinkedin} style={{color:"#ffd1d1"}} size="2x" />
           </a>
           <a href="https://github.com/rheashetti">
-            <FontAwesomeIcon icon={faGithub} style={{color:"#dbdbdb"}} size="2x"/>
+            <FontAwesomeIcon icon={faGithub} style={{color:"#ffd1d1"}} size="2x"/>
           </a>
           <a href="mailto:shettir@uci.edu">
-            <FontAwesomeIcon icon={faEnvelope} style={{color:"#dbdbdb"}} size="2x"/>
+            <FontAwesomeIcon icon={faEnvelope} style={{color:"#ffd1d1"}} size="2x"/>
           </a>
         </div>
         <p>© 2025 Rhea Shetti</p>

@@ -9,7 +9,7 @@
     background-color: rgb(245, 172, 172);
     padding: 20px;
     margin-bottom: 20px;
-    height: 400px;
+    height: 450px;
 }
 
 .file-container {
@@ -41,7 +41,7 @@
     padding: 10px 30px;
     position: relative;
     z-index: 1;
-    height: 74%;
+    height: 77%;
     font-size: 1.3em;
     color: black;
 }
