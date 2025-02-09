@@ -78,7 +78,7 @@ function App() {
       </div>
       <div className="footer">
         <div className="footer-links">
-          <a href="www.linkedin.com/in/rhea-shetti">
+          <a href="http://linkedin.com/in/rhea-shetti">
             <FontAwesomeIcon icon={faLinkedin} style={{color:"#ffd1d1"}} size="2x" />
           </a>
           <a href="https://github.com/rheashetti">
