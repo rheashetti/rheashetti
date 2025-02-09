@@ -8,6 +8,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  --light_pink: rgb(255, 209, 209);
+  --dark_pink: rgb(245, 172, 172);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
