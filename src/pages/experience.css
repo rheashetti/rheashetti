@@ -20,7 +20,7 @@
     background-color: rgb(245, 172, 172);
     padding: 20px;
     margin-bottom: 20px;
-    height: 450px;
+    height: 350px;
     box-shadow: inset 0 0 20px 5px rgba(0, 0, 0, 0.2);
     
 }
@@ -54,7 +54,7 @@
     padding: 10px 30px;
     position: relative;
     z-index: 1;
-    height: 77%;
+    height: 70%;
     font-size: 1.3em;
     color: black;
 }
