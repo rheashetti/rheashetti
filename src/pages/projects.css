@@ -38,6 +38,7 @@
     width: auto;
     height: auto;
     padding: 35px;
+    padding-bottom: 50px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -49,8 +50,8 @@
 }
 
 .project-tag {
-    margin-top: -6%;
-    font-size: 0.6em;
+    margin-top: -3%;
+    font-size: 0.8em;
     display: flex;
     gap: 6px;
     margin-bottom: -6%;
@@ -62,6 +63,7 @@
 
 .project-tag p {
     text-align: center;
+    width: 100%;
     padding: 6px;
     background-color: rgba(255, 188, 188, 0.673);
     border-radius: 12px; 
