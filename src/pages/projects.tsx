@@ -35,11 +35,27 @@ const Projects: React.FC = () => {
             <div className="project-container">
                 <div className="project-item">
                     <h3>MediTracker</h3>
-                    <p>Medication errors are among the leading causes of preventable harm in healthcare. From missed doses to dangerous drug interactions, these errors often stem from challenges in medication management. That’s why we created MediTracker, a medication tracker designed to prioritize patient safety and put users in control of their health.</p>
+                    <p>A full-stack medication management app that provides users with a personalized medication schedule and a comprehensive medicine library. By integrating AI-powered insights using Gemini AI and APIs from the National Library of Medicine, the app offers safety warnings for incompatible medications.</p>
+                    <div className="project-tag">
+                        <p>Python (Flask)</p>
+                        <p>React.js</p>
+                        <p>Google Firebase</p>
+                        <p>Gemini AI</p>
+                        <p>Git</p>
+                        <p>CSS</p>
+                    </div>
                 </div>
                 <div className="project-item">
                     <h3>PetrPlanner</h3>
-                    <p>PetrPlanner extracts real-time course data from the UCI catalog and various API's to compile a sorted list of courses to take in order to complete the lower-division requirements of a B.S. in Computer Science. It displays lecture sections only, sorted based on "desirable" qualities such as a professor's RMP rating, the historic average gpa in the class, class difficulty, and more.</p>
+                    <p>A web app that helps UCI students generate personalized academic plans. By pulling real-time data from the UC Irvine catalogue, RateMyProfessor, and PeterPortal APIs, PetrPlanner uses an algorithm to rank courses based on factors like professor ratings and GPA averages, helping students create their ideal schedules.</p>
+                    <div className="project-tag">
+                        <p>Python (Flask, Pandas)</p>
+                        <p>React.js</p>
+                        <p>SQL</p>
+                        <p>Git</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
+                    </div>
                 </div>
             </div>
         </section>
