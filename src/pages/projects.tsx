@@ -34,6 +34,25 @@ const Projects: React.FC = () => {
             <h2> / projects</h2>
             <div className="project-container">
                 <div className="project-item">
+                    <h3>mentHER</h3>
+                    <p>A web application designed to connect women in tech to mentors through a smart recommendation system that matches users based on shared goals, interests, and preferences collected at sign-up. The platform automates the matching process to foster more meaningful and impactful mentorship connections.</p>
+                    <div className="project-tag">
+                        <p>Python (Flask)</p>
+                        <p>Next.js</p>
+                        <p>Tailwind CSS</p>
+                        <p>Google Firebase</p>
+                        <p>Git</p>
+                    </div>
+                </div>
+                <div className="project-item">
+                    <h3>VR Cat Cafe</h3>
+                    <p> A virtual reality project offering an immersive and relaxing virtual experience developed using Unity. The simulation focuses on user interaction, ambient audio, and dynamic lighting to create a cozy and engaging café environment filled with playful virtual cats. The project explores key concepts in virtual reality development, including spatial design, intuitive interaction mechanics, and sensory immersion. </p>
+                    <div className="project-tag">
+                        <p>Unity</p>
+                        <p>C#</p>
+                    </div>
+                </div>
+                <div className="project-item">
                     <h3>MediTracker</h3>
                     <p>A full-stack medication management app that provides users with a personalized medication schedule and a comprehensive medicine library. By integrating AI-powered insights using Gemini AI and APIs from the National Library of Medicine, the app offers safety warnings for incompatible medications.</p>
                     <div className="project-tag">
