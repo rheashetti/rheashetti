@@ -91,7 +91,7 @@ const Projects: React.FC = () => {
                                 title={project.title}
                                 frameBorder="0"
                                 allow="autoplay"
-                                style={{ marginTop: '40px', marginBottom: '20px', borderRadius: '12px', aspectRatio: '16/9', minHeight: '300px', border: '2px solid rgba(255, 255, 255, 0.1)', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.3)' }}
+                                style={{ marginTop: '40px', marginBottom: '20px', borderRadius: '12px', aspectRatio: '16/9', minHeight: '300px' }}
                             />
                         )}
                     </div>
